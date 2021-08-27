@@ -7,7 +7,7 @@
 	#
 	#Enable/disable generation of the central island.
 	#Default value: false
-	generateCentralIsland = false
+	generateCentralIsland = true
 	#
 	#Enable/disable custom chorus plant (set this to false if you experience block shifting issues)
 	#Default value: true
@@ -31,7 +31,7 @@
 	#
 	#Enable/disable new End terrain generation.
 	#Default value: false
-	enableNewGenerator = false
+	enableNewGenerator = true
 	#
 	#Enable/disable vanilla portal generation.
 	#Default value: true

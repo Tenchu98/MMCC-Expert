@@ -1,0 +1,14 @@
+
+# Infinite Dark Client settings
+[client]
+	# The brightness of dark blocks when a dark block is being held.
+	#Range: 1 ~ 255
+	holding_dark_block_brightness = 64
+	# Whether to use a keybind to determine when to change the texture of dark blocks,
+	# instead of changing the color of dark blocks when a dark block is being held.
+	use_key_binding = false
+
+	[client.keybind]
+		# Whether the keybind behaves like a toggle, or only changes the texture when held.
+		toggle_mode = true
+

@@ -1,11 +1,11 @@
 #Illagers In Raids Attack Animals?
-"Illagers in raids attack animals?" = false
+"Illagers in raids attack animals?" = true
 #Witches Attack Villagers?
 "Witches attack villagers?" = true
 #This will make Illusioners get involved in raids
 "Have illusioners in raids?" = true
 #Guards will attack all hostiles with this option
-"Guards attack all mobs?" = false
+"Guards attack all mobs?" = true
 #Guards won't attack mobs in this list if AttackAllMobs is enabled, for example, putting minecraft:creeper in this list will make guards ignore creepers.
 "Mob BlackList" = []
 #This makes villagers run from polar bears, as anyone with common sense would.
@@ -13,7 +13,7 @@
 #This makes Illagers run from polar bears, as anyone with common sense would.
 "Have Illagers have some common sense?" = true
 #This makes Guards run from polar bears, as anyone with common sense would.
-"Have Guards have some common sense?" = false
+"Have Guards have some common sense?" = true
 #This lets Guards open doors.
 "Have Guards open doors?" = true
 #This will make guards raise their shields all the time, on default they will only raise their shields under certain conditions
@@ -23,7 +23,7 @@
 #This will make guards attempt to avoid friendly fire.
 "Have guards attempt to avoid firing into other friendlies? (Experimental)" = false
 #This will make it so villagers will only be converted into guards if the player has hero of the village
-"Make it so players have to have hero of the village to convert villagers into guards?" = false
+"Make it so players have to have hero of the village to convert villagers into guards?" = true
 "Have it so blacksmiths heal golems under 60 health?" = true
 "Have it so clerics heal guards and players with hero of the village?" = true
 #This is the range in which the guards will be aggroed to mobs that are attacking villagers. Higher values are more resource intensive, and setting this to zero will disable the goal.

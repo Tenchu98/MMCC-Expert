@@ -137,7 +137,7 @@
 
 	[gear.upgrades]
 		#If true, upgrade parts may only be applied in an anvil.
-		applyInAnvilOnly = false
+		applyInAnvilOnly = true
 
 #Settings for the material grader
 [materialGrader]

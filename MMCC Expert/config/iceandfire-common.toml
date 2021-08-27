@@ -13,19 +13,19 @@
 
 	[Generation.Dimensions]
 		#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-		whitelistDimensionsMobs = ["minecraft:overworld"]
+		whitelistDimensionsMobs = ["mythicbotany:alfheim"]
 		#True if using blacklists, false if using whitelists for dragons and structure gen.
 		"Use Dimension Blacklist" = false
 		#Whitelisted feature(cyclops caves, hydra dens, etc) gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-		whitelistDimensionsFeature = ["minecraft:overworld"]
+		whitelistDimensionsFeature = ["mythicbotany:alfheim"]
 		#Blacklisted dragon gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-		blacklistDimensionsDragons = ["minecraft:the_nether", "minecraft:the_end"]
+		blacklistDimensionsDragons = ["minecraft:the_nether", "minecraft:the_end", "minecraft:overworld"]
 		#Whitelist dragon gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-		whitelistDimensionsDragons = ["minecraft:overworld"]
+		whitelistDimensionsDragons = ["mythicbotany:alfheim"]
 		#Blacklisted feature(cyclops caves, hydra dens, etc) gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-		blacklistDimensionsFeature = ["minecraft:the_nether", "minecraft:the_end"]
+		blacklistDimensionsFeature = ["minecraft:the_nether", "minecraft:the_end", "minecraft:overworld"]
 		#Blacklisted mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-		blacklistDimensionsMobs = ["minecraft:the_nether", "minecraft:the_end"]
+		blacklistDimensionsMobs = ["minecraft:the_nether", "minecraft:the_end", "minecraft:overworld"]
 
 	[Generation.Dragon]
 		#Ratio of Stone(this number) to Ores in Dragon Caves
@@ -325,7 +325,7 @@
 		"Spawn Myrmex" = true
 		#The maximum radius myrmex area allowed to wander/forage
 		#Range: 100 ~ 20000
-		"Myrmex Maximum Wnader Radius" = 4000
+		"Myrmex Maximum Wnader Radius" = 100
 		#How many ticks it takes for a Myrmex Queen to produce an egg.
 		#Range: 1 ~ 10000
 		"Myrmex Gestation Length" = 2500
@@ -449,5 +449,5 @@
 	"Dragon Pathfinding Threads" = 3
 	#Maximum nodes for dragons/myrmex to path too. Decrease this is dragon pathfinding is super slow or intensive.
 	#Range: > 1
-	"Dragon Max Pathfinding Nodes" = 5000
+	"Dragon Max Pathfinding Nodes" = 100
 
