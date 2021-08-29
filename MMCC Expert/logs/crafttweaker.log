@@ -1,0 +1,20 @@
+[19:03:53.345][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[19:03:55.185][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+'aquaculture' at version '1.16.5-2.1.20'
+'astralsorcery' at version '1.16.5-1.13.12'
+'atum' at version '1.16.5-2.2.7'
+'bloodmagic' at version '1.16.4-3.1.1-16'
+'botania' at version '1.16.5-419'
+'cagedmobs' at version '1.16.5-1.3.4'
+'crafttweaker' at version '7.1.2.408'
+'cyclic' at version '1.16.5-1.3.6'
+'farmersdelight' at version '1.16.5-0.4.6'
+'jeitweaker' at version '1.0.1.34'
+'pneumaticcraft' at version '1.16.5-2.13.5-218'
+[19:03:56.620][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[19:05:22.490][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[19:05:23.490][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[19:06:36.645][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[19:06:36.740][DONE][CLIENT][INFO] Finished loading Scripts!
+[19:07:03.557][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[19:07:03.621][DONE][CLIENT][INFO] Finished loading Scripts!

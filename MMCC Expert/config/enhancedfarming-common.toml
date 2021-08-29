@@ -4,7 +4,7 @@
 	#When enabled makes seeds drop from grass [Default: false]
 	seedsFromGrass = false
 	#Makes it so if you hold hot drinks for too long that you begin taking fire damage [Default: false]
-	hotBurnsPlayer = false
+	hotBurnsPlayer = true
 	#When enabled allows the usage of bonemeal on the mods plants [Default: true]
 	bonemealGrow = true
 	#When enabled makes seeds drop from grass [Default: false]
@@ -13,7 +13,7 @@
 	#Range: > 1
 	hotTime = 15
 	#When enabled the fruity leaves have to be right-clicked to be harvested [Default: false]
-	rightClickFruitHarvest = false
+	rightClickFruitHarvest = true
 	#Enables rakes [Default: true]
 	enableRake = true
 	#When enabled allows instant-growth using bonemeal on the mods plants [Default: false]

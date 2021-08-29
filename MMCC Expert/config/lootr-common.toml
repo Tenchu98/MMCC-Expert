@@ -5,7 +5,7 @@ convert_mineshafts = true
 #whether or not the entire forge:chests/wooden tag should be added to the conversion list for structures (if they are backed by LockableLootTileEntity)
 convert_wooden_chests = true
 #a list of additional chests that should be converted [in the format of modid:name, must be a tile entity instance of LockableLootTileEntity]
-additional_chests = []
+additional_chests = ["dungeoncrawl:food", "dungeoncrawl:foodforge", "dungeoncrawl:foodlibrary", "dungeoncrawl:foodsecret_room", "dungeoncrawl:fodstage_1", "dungeoncrawl:foodstage_2", "dungeoncrawl:foodstage_3", "dungeoncrawl:foodstage_4", "dungeoncrawl:foodstage_5", "dungeoncrawl:foodsupply", "dungeoncrawl:foodtreasure", "iceandfire:cyclops_cave", "iceandfire:fire_dragon_female_cave", "iceandfire:fire_dragon_male_cave", "iceandfire:graveyard", "iceandfire:hydra_cave", "iceandfire:ice_dragon_female_cave", "iceandfire:ice_dragon_male_cave", "iceandfire:lightning_dragon_female_cave", "iceandfire:lightning_dragon_male_cave", "iceandfire:mausoleum_chest", "iceandfire:myrmex_desert_food_chest", "iceandfire:myrmex_jungle_food_chest", "iceandfire:myrmex_loot_chest", "iceandfire:myrmex_trash_chest", "iceandfire:village_scribe"]
 #list of loot tables which shouldn't be converted [in the format of modid:loot_table]
 loot_table_blacklist = []
 #determine whether or not loot generated is the same for all players using the provided seed, or randomised per player
@@ -15,7 +15,7 @@ additional_trapped_chests = []
 #list of dimensions (to the exclusion of all others) that loot chest should be replaced in [default: blank, allowing all dimensions, e.g., minecraft:overworld]
 dimension_whitelist = []
 #catches loot chest creation that this mod cannot convert, reporting the loot table, location and mod
-report_tables = false
+report_tables = true
 #whether or not quark chests used in world generation for loot purposes should be replaced with Lootr chests
 convert_quark = true
 #list of dimensions that loot chests should not be replaced in [default: blank, allowing all dimensions, format e.g., minecraft:overworld]

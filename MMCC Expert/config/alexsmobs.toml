@@ -3,7 +3,7 @@
 	#Whether polar bears should target seal mobs.
 	polarBearsAttackSeals = true
 	#Whether bone serpents are neutral or hostile.
-	neutralBoneSerpents = false
+	neutralBoneSerpents = true
 	#Makes eagles teleport back to their owner if they get stuck during controlled flight. Useful for when playing with the Optifine mod, since this mod is the fault of many issues with the falconry system.
 	falconryTeleportsBack = false
 	#List of dimensions in which spawning void worms via mysterious worm items is allowed.
@@ -228,7 +228,7 @@
 		gorillaSpawnWeight = 50
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		flySpawnRolls = 1
+		flySpawnRolls = 1000
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		platypusSpawnWeight = 30
@@ -351,7 +351,7 @@
 		komodoDragonSpawnWeight = 4
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		flySpawnWeight = 3
+		flySpawnWeight = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		snowLeopardSpawnRolls = 0

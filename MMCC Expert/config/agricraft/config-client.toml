@@ -9,6 +9,9 @@
 
 [core]
 	#
+	#Set to true to convert seeds only in the analyzer. Has no effect if "Override vanilla farming" is set to false.
+	"Convert seeds only in analyzer" = false
+	#
 	#Set to true to allow mutations on clone events (spreading from single crop).
 	"Clone mutations" = false
 	#
@@ -236,14 +239,8 @@
 	#Set to false if you want all mutations to be shown in JEI all the time instead of having to research them
 	"Progressive JEI" = true
 	#
-	#Set to false to disable weeds on Botany Pots
-	"Enable Botany Pots weeds" = true
-	#
 	#Defines whether or not additional The One Probe data is rendered only when the magnifying glass is being used
 	"TOP only with magnifying glass" = true
-	#
-	#Set to false to disable compatibility with Straw Golem Reborn (in case things break)
-	"Enable Straw Golem Reborn compat" = true
 	#
 	#Defines the mod controlling season logic in case multiple are installed
 	#accepted values are: "sereneseasons"
@@ -255,14 +252,23 @@
 	#Set to false to disable compatibility with Blood Magic (in case things break)
 	"Enable Blood Magic compat" = true
 	#
+	#Set to false to disable compatibility with Botany Pots (in case things break)
+	"Enable Botany Pots compat" = true
+	#
+	#Set to false to disable weeds on Botany Pots
+	"Enable Botany Pots weeds" = true
+	#
+	#Set to false to disable compatibility with Mystical Agriculture (in case things break)
+	"Enable Mystical Agriculture compat" = true
+	#
+	#Set to false to disable compatibility with Straw Golem Reborn (in case things break)
+	"Enable Straw Golem Reborn compat" = true
+	#
 	#Set to false to disable compatibility with Cyclic (in case things break)
 	"Enable Cyclic compat" = true
 	#
 	#Set to false to disable compatibility with Industrial Foregoing (in case things break)
 	"Enable Industrial Foregoing compat" = true
-	#
-	#Set to false to disable compatibility with Botany Pots (in case things break)
-	"Enable Botany Pots compat" = true
 	#
 	#Set to false to disable compatibility with Botania (in case things break)
 	"Enable Botania compat" = true
@@ -277,4 +283,14 @@
 	#
 	#Set to true to add Tag information to itemstack tooltips (Client only)
 	"Tag tooltips" = false
+
+[animations]
+	#
+	#Configures the animation duration in ticks for the camera to snap to the journal, 0 disables it (Client only)
+	#Range: 0 ~ 40
+	"Journal Animation Duration" = 10
+	#
+	#Configures the animation duration in ticks for the camera to snap to the seed analyzer, 0 disables it (Client only)
+	#Range: 0 ~ 40
+	"Seed Analyzer Animation Duration" = 15
 

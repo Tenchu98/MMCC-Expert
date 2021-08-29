@@ -74,7 +74,7 @@ break_in_creative = false
 	blacklisted = []
 	#When set to true, the mod will be activated no matter what you have in your hand (or empty hand).
 	#INFO: Blacklist still can be use to restrict some tools.
-	ignore_tools = false
+	ignore_tools = true
 	#Applies a speed modifier when breaking the tree.
 	#0 will disable this, so the speed will be the default one of breaking a block.
 	#If set to 1 each log block will be counted once, so if the tree is 5 blocks tall it'll require the time of breaking 5 logs.

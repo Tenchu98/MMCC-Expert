@@ -1,0 +1,33 @@
+[19:06:44] [INFO] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
+[19:06:44] [INFO] SourceFile:407: Loaded script server_scripts:script.js in 0.002 s
+[19:06:44] [INFO] SourceFile:407: Loaded 1/1 KubeJS server scripts in 0.006 s
+[19:06:44] [INFO] Scripts loaded
+[19:06:44] [INFO] Scanning recipes...
+[19:06:52] [INFO] [blocks] Found 695 tags, added 0 objects, removed 0 objects
+[19:06:52] [INFO] [items] Found 2677 tags, added 0 objects, removed 0 objects
+[19:06:52] [INFO] [fluids] Found 33 tags, added 0 objects, removed 0 objects
+[19:06:52] [INFO] [entity_types] Found 57 tags, added 0 objects, removed 0 objects
+[19:06:52] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[19:06:52] [INFO] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[19:06:52] [INFO] [tile_entity_types] Found 0 tags, added 0 objects, removed 0 objects
+[19:06:52] [WARN] Failed to parse recipe 'pamhc2foodextended:cottoncandyitem[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodextended:cottoncandyitem'
+[19:06:52] [WARN] Failed to parse recipe pamhc2foodextended:cottoncandyitem[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodextended:cottoncandyitem'
+[19:06:53] [WARN] Failed to parse recipe 'pamhc2foodextended:gourmetmuttonpattyitem[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:crops/mustard'
+[19:06:53] [WARN] Failed to parse recipe pamhc2foodextended:gourmetmuttonpattyitem[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:crops/mustard'
+[19:06:53] [WARN] Failed to parse recipe 'treasure2:pouch[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'treasure2:pouch'
+[19:06:53] [WARN] Failed to parse recipe treasure2:pouch[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'treasure2:pouch'
+[19:06:53] [WARN] Failed to parse recipe 'pamhc2foodextended:peachesandcreamoatmealitem[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:crop/peach'
+[19:06:53] [WARN] Failed to parse recipe pamhc2foodextended:peachesandcreamoatmealitem[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:crop/peach'
+[19:06:53] [WARN] Failed to parse recipe 'pamhc2foodextended:leafyfishsandwichitem[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'pamhc2foodcore:basicfishsandwhichitem'
+[19:06:53] [WARN] Failed to parse recipe pamhc2foodextended:leafyfishsandwichitem[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item tag 'pamhc2foodcore:basicfishsandwhichitem'
+[19:06:54] [WARN] Failed to parse recipe 'pamhc2foodextended:raspberrytrifleitem[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:vanilla'
+[19:06:54] [WARN] Failed to parse recipe pamhc2foodextended:raspberrytrifleitem[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:vanilla'
+[19:06:54] [WARN] Failed to parse recipe 'farmersdelight:integration/silentgear/cutting/netherwood[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown ingredient type: axe
+[19:06:54] [WARN] Failed to parse recipe farmersdelight:integration/silentgear/cutting/netherwood[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown ingredient type: axe
+[19:06:54] [WARN] Failed to parse recipe 'pamhc2foodextended:bangersandmashitem[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodcore:mashedpotatoes'
+[19:06:54] [WARN] Failed to parse recipe pamhc2foodextended:bangersandmashitem[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodcore:mashedpotatoes'
+[19:06:54] [WARN] Failed to parse recipe 'pamhc2foodextended:rawtofishitem[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:soysauce'
+[19:06:54] [WARN] Failed to parse recipe pamhc2foodextended:rawtofishitem[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:soysauce'
+[19:06:54] [WARN] Failed to parse recipe 'hunterillager:mobs/illager_hunter[cagedmobs:mob_data]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'hunterillager:quivers'
+[19:06:54] [WARN] Failed to parse recipe hunterillager:mobs/illager_hunter[cagedmobs:mob_data]: com.google.gson.JsonSyntaxException: Unknown item 'hunterillager:quivers'
+[19:07:01] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects

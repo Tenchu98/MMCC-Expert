@@ -4,11 +4,11 @@
 	#Range: 0.0 ~ 100.0
 	scaleXpBoostByDurabilityEnd = 75.0
 	#Should the Welcome message come up?
-	showWelcome = true
+	showWelcome = false
 	#Should Xp Boosts be scaled by the item Durability? (Max boost at Max durability, 50% at half Durability)
 	scaleXpBoostByDurability = true
 	#Should your personal Donator Welcome message come up?
-	showPatreonWelcome = true
+	showPatreonWelcome = false
 	#Should Xp gains be logged in debug.log?
 	logXpGainedInDebugLog = false
 	#At what durability percentage should the xp bonus go away fully at and below? (25 means at 25% or below durability, there is no longer any xp boost)
@@ -17,7 +17,7 @@
 	#Should right click xp be enabled?
 	rightClickXpEnabled = true
 	#Should a warning come up if your Project MMO is outdated?
-	warnOutdatedVersion = true
+	warnOutdatedVersion = false
 
 [Party]
 	#How much bonus xp a Party gains extra, per player? (5 = 1 player -> 5% xp bonus, 2 players -> 10% xp bonus
@@ -274,7 +274,7 @@
 
 [GUI]
 	#If Off, The skills list at the top left corner will no longer appear (You still have the GUI to show you all of your skills info)
-	showSkillsListAtCorner = true
+	showSkillsListAtCorner = false
 	#Should the Xp left indicator always be on? false = only appears with Show GUI key
 	xpLeftDisplayAlwaysOn = false
 	#Should xp drops sync up with the bar being open or closed? HIGHLY RECOMMEND TO KEEP FALSE IF YOU ARE MOVING XP DROP POSITIONS
@@ -325,7 +325,7 @@
 	xpDropDecayAge = 350.0
 	#GUI Skills List position X (Width)
 	#Range: 0.0 ~ 1.0
-	skillListOffsetX = 0.0
+	skillListOffsetX = 1.0
 	#GUI Skills List position Y (Height, 0 is top, 1 is bottom (1 is probably invisible due to clipping) )
 	#Range: 0.0 ~ 1.0
 	skillListOffsetY = 0.0

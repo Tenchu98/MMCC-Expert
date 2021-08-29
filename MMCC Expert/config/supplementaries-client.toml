@@ -127,7 +127,7 @@
 	[particles.firefly_glow]
 		#Maximum age in ticks. Note that actual max age with be this + a random number between 0 and 10
 		#Range: 1 ~ 256
-		max_age = 40
+		max_age = 1
 		#Scale
 		#Range: 0.0 ~ 1.0
 		scale = 0.075

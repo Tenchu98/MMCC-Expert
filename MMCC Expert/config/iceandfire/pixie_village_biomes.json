@@ -4,12 +4,12 @@
       {
         "type": "BIOME_DICT",
         "negate": false,
-        "value": "overworld"
+        "value": "mythicbotany:alfheim"
       },
       {
         "type": "BIOME_DICT",
         "negate": false,
-        "value": "rare"
+        "value": "common"
       },
       {
         "type": "BIOME_DICT",
@@ -21,7 +21,7 @@
       {
         "type": "BIOME_DICT",
         "negate": false,
-        "value": "overworld"
+        "value": "mythicbotany:alfheim"
       },
       {
         "type": "BIOME_DICT",

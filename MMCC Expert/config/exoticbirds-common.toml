@@ -3,9 +3,9 @@
 
 	[general.spawning]
 		#A list of dimensions that no birds are able to spawn in
-		blacklistedSpawningDimensions = []
+		blacklistedSpawningDimensions = ["overworld"]
 		#Allow non-tamed birds to naturally despawn
-		allowDespawning = false
+		allowDespawning = true
 		#A list of biomes that no birds are able to spawn in
 		blacklistedSpawningBiomes = []
 
@@ -29,13 +29,13 @@
 		#A list of dimensions that nests are not able to generate in
 		blacklistedNestGenDimensions = []
 		#Allow eggs to regenerate in nests
-		allowNestEggRegen = false
+		allowNestEggRegen = true
 		#Allow anything to be placed inside bird nest blocks
-		allowAnythingInNests = false
+		allowAnythingInNests = true
 
 	[general.cages]
 		#Allow other mobs to be caught by birdcages
-		allowAnythingInCages = false
+		allowAnythingInCages = true
 
 	[general.entity]
 		#Allow tamed pelicans to collect fish

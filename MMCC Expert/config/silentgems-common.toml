@@ -101,7 +101,7 @@
 
 [teleporter]
 	#Only allow teleporters to be linked to teleporters made with the same gem
-	sameGemOnly = false
+	sameGemOnly = true
 	#Allow teleporters to link to teleporter anchors
 	allowAnchors = true
 

@@ -176,6 +176,8 @@
 		"Haunter Weight" = 100
 
 [structures]
+	#Center Structures on Biomes (Could lead to incompatibilities with other mods)
+	"Center On Biomes" = false
 
 	[structures.the_pitcher]
 		#Range: > 0

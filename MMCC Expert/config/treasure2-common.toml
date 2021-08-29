@@ -29,7 +29,7 @@
 ###############################
 ["gems and ores"]
 	# Enable/disable whether a gem ore will spawn.
-	"Enable gem ore spawn:" = true
+	"Enable gem ore spawn:" = false
 	# The number of sapphire ore blocks in a vein.
 	#Range: 3 ~ 20
 	"Sapphire ore vein size:" = 3
